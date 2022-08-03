@@ -1,0 +1,55 @@
+<ion-content>
+  <p>Already have an account? <b (click) ="login()">Log in</b></p>
+  <h4>Welcome to NotePal</h4>
+
+  <form [formGroup]="registrationForm" (ngSubmit)="submit()">
+  
+  <ion-item color="transparent">
+    <ion-label position="floating">First Name</ion-label>
+    <ion-input type="text" formControlName="fname"></ion-input>
+  </ion-item>
+  <div *ngFor="let error of errorMessages.fname">
+    <ng-container *ngIf="fname.hasError(error.type) && (fname.dirty || fname.touched)">
+      <small class="error-message">{{error.message}}</small>
+    </ng-container>
+  </div>
+
+  <ion-item color="transparent">
+    <ion-label position="floating">Last Name</ion-label>
+    <ion-input type="text" formControlName="lname"></ion-input>
+  </ion-item>
+  <div *ngFor="let error of errorMessages.lname">
+    <ng-container *ngIf="lname.hasError(error.type) && (lname.dirty || lname.touched)">
+      <small class="error-message">{{error.message}}</small>
+    </ng-container>
+  </div>
+
+  <ion-item color="transparent">
+    <ion-label position="floating">Username</ion-label>
+    <ion-input type="text" formControlName="username"></ion-input>
+  </ion-item>
+  <div *ngFor="let error of errorMessages.username">
+    <ng-container *ngIf="username.hasError(error.type) && (username.dirty || username.touched)">
+      <small class="error-message">{{error.message}}</small>
+    </ng-container>
+  </div>
+
+  <ion-item color="transparent">
+    <ion-label position="floating">Password</ion-label>
+    <ion-input type="password" formControlName="password"></ion-input>
+  </ion-item>
+  <div *ngFor="let error of errorMessages.password">
+    <ng-container *ngIf="password.hasError(error.type) && (password.dirty || password.touched)">
+      <small class="error-message">{{error.message}}</small>
+    </ng-container>
+  </div>
+
+  <ion-item color="transparent">
+    <ion-label position="floating">Confirm Password</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+
+  <ion-button  [disabled]="!registrationForm.valid" shape="round" fill="solid" (click) ="spinner()">Continue</ion-button>
+
+  </form>
+</ion-content>

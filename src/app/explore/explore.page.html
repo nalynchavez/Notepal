@@ -1,0 +1,99 @@
+<ion-content [fullscreen]="true">
+    <h2>Discover</h2>
+
+   <ion-card class="continue">
+    <ion-card-content>
+        <p>Continue Reading</p>
+        <h5>How To Log Your Daily Activities And Manage Your Time</h5>
+        <div class="prog">
+            <ion-progress-bar value="0.5"></ion-progress-bar>
+            <h6>50%</h6>
+        </div>
+        
+    </ion-card-content>
+   </ion-card>
+            
+    
+
+    <ion-slides [options]="option" class="ion-margin-top">
+        <ion-slide>
+            <ion-card>
+                <img src="assets/1.jpeg" />
+                <ion-card-header>
+                  <ion-card-subtitle>Leo Babauta</ion-card-subtitle>
+                  <ion-card-title>The Art of Saying No</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                    <ion-button fill="solid" slot="end">Start Reading</ion-button>
+                </ion-card-content>
+            </ion-card>
+        </ion-slide>
+
+        <ion-slide>
+            <ion-card>
+                <img src="assets/7.jpg" />
+                <ion-card-header>
+                  <ion-card-subtitle>John Hall</ion-card-subtitle>
+                  <ion-card-title>How To Log Your Daily Activities And Manage Your Time Better</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                    <ion-button fill="solid" slot="end" class="outline">Continue Reading</ion-button>
+                </ion-card-content>
+            </ion-card>
+        </ion-slide>
+
+        <ion-slide>
+            <ion-card>
+                <img src="assets/2.jpg" />
+                <ion-card-header>
+                  <ion-card-subtitle>Leon Ho</ion-card-subtitle>
+                  <ion-card-title>Multitasking: Is It Good And Can You Actually Master It?</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                    <ion-button fill="solid" slot="end" (click) ="multitask()">Start Reading</ion-button>
+                </ion-card-content>
+            </ion-card>
+        </ion-slide>
+
+        <ion-slide>
+            <ion-card>
+                <img src="assets/3a.jpg" />
+                <ion-card-header>
+                  <ion-card-subtitle>Caroline Dougoud</ion-card-subtitle>
+                  <ion-card-title>How To Master Timeboxing For Increased Productivity</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                    <ion-button fill="solid" slot="end">Start Reading</ion-button>
+                </ion-card-content>
+            </ion-card>
+        </ion-slide>
+
+        <ion-slide>
+            <ion-card>
+                <img src="assets/5.jpg" />
+                <ion-card-header>
+                  <ion-card-subtitle>Pratip Biswas</ion-card-subtitle>
+                  <ion-card-title>Can You Really Get Over Cell Phone Distraction?</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                    <ion-button fill="solid" slot="end">Start Reading</ion-button>
+                </ion-card-content>
+            </ion-card>
+        </ion-slide>
+
+        <ion-slide>
+            <ion-card>
+                <img src="assets/6.jpg" />
+                <ion-card-header>
+                  <ion-card-subtitle>Kimanzi Constable</ion-card-subtitle>
+                  <ion-card-title>Why Making Yourself a Priority Boosts Your Productivity</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                    <ion-button fill="solid" slot="end">Start Reading</ion-button>
+                </ion-card-content>
+            </ion-card>
+        </ion-slide>
+    </ion-slides>
+
+
+</ion-content>

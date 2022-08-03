@@ -1,0 +1,63 @@
+ion-content{
+    --background: #E1E7DD;
+}
+
+.diary{
+    display: grid;
+    column-gap: 60px;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+ion-button{
+    color: #361500;
+    width: 50px;
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #361500;
+}
+
+h5{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ion-textarea{
+    margin-left: 30px;
+    width: 88%;
+}
+
+h4{
+    font-size: 12px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #E1E7DD;
+}
+
+.save{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.ok{
+    width: 60px;
+    padding: 5px;
+    --background: #5C3D2E;
+    --background-activated: #361500;
+}
+
+
+

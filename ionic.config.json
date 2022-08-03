@@ -1,0 +1,7 @@
+{
+  "name": "notepal",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

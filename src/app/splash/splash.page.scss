@@ -1,0 +1,12 @@
+ion-content{
+    --background: #E1E7DD;
+}
+
+@-webkit-keyframes scale-up-hor-center{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4)}100%{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes scale-up-hor-center{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4)}100%{-webkit-transform:scaleX(1);transform:scaleX(1)}}
+.container{
+    -webkit-animation:scale-up-hor-center 2s cubic-bezier(.39,.575,.565,1.000) both;animation:scale-up-hor-center 2s cubic-bezier(.39,.575,.565,1.000) both;
+    img{
+        height: 160px;
+        margin-top: 60%;
+    }
+}

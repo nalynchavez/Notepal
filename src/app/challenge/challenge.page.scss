@@ -1,0 +1,90 @@
+ion-content{
+    --background: url('/assets/bg3.png') no-repeat center/cover fixed;
+    font-family: 'Poppins', sans-serif;
+}
+
+h4{
+    font-size: 30px;
+    color: #5C3D2E;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1px;
+    margin-top: 40px;
+}
+
+h5{
+    font-size: 30px;
+    color: #402218;
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+    margin-top: 1px;
+}
+
+img{
+    width: 300px;
+    margin-top: 25px;
+}
+
+ion-card{
+    --background: #f4f7f2;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+ion-card p{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: #361500;
+}
+
+
+.center{
+    width:90%; 
+    display:block;
+    margin: auto;
+}
+
+.teeth{
+    display: flex;
+    gap: 140px;
+}
+
+.water{
+    display: flex;
+    gap: 167px;
+}
+
+.exercise{
+    display: flex;
+    gap: 190px;
+}
+
+ion-icon{
+    font-size: 20px;
+    color: #361500;
+}
+
+
+.progress{
+    margin-left: 70px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.progress p{
+    margin-top: 47px;
+    font-size: 12px;
+}
+
+.progress img{
+    height: 65px;
+    width: 65px;
+}
+
+.icon{
+    font-size: 30px;
+    margin-left: 75px;
+    margin-top: 42px;
+    color: #402218;
+}
+

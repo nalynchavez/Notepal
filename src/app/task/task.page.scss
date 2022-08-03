@@ -1,0 +1,23 @@
+ion-content{
+    --background: #E1E7DD;
+}
+
+.today{
+    font-family: "Lora", sans-serif;
+    font-size: 38px;
+    color: #361500;
+}
+
+.date{
+    font-family: 'Lora', sans-serif;
+    font-weight: 500;
+    margin-top: 5px;
+    color: #1a0b02;
+}
+
+ion-fab-button{
+    --background: #361500;
+    --background-activated: #2b1102;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}

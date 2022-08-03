@@ -1,0 +1,45 @@
+ion-content{
+    --background: url('/assets/bg6.jpg') no-repeat center/cover fixed;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-size: 10px;
+    color:#361500;
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+
+h4{
+    color:#361500;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+ion-item{
+    --background: #E1E7DD;
+    --padding-end: 40px;
+    --padding-start: 40px;
+    font-family: 'Poppins', sans-serif;
+    color:#361500;
+
+}
+
+ion-button{
+    width: 300px;
+    height: 40px;
+    margin-top: 60px;
+    margin-left: 40px;
+    --color: #E1E7DD;
+    --background: #5C3D2E;
+    --background-activated: #1a1a1a;
+    font-family: 'Poppins', sans-serif;
+}
+
+.error-message {
+    color: var(--ion-color-danger);
+    margin-left: 40px;
+}
+

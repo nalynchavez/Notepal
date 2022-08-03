@@ -1,0 +1,21 @@
+<ion-content>
+  <div class="container ion-text-center">
+    <img src="assets/logo5.png">
+  </div>
+
+  <ion-item color="transparent">
+    <ion-label position="floating">Username</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+  <ion-item color="transparent">
+    <ion-label position="floating">Password</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+
+  <ion-router-link>FORGOT PASSWORD</ion-router-link>
+
+  <ion-button shape="round" fill="solid" (click) ="spinner()">SIGN IN</ion-button>
+
+  <p>DON'T HAVE AN ACCOUNT? <b (click) ="signup()">SIGN UP</b></p>
+
+</ion-content>

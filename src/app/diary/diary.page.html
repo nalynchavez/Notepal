@@ -1,0 +1,21 @@
+<ion-content>
+  <div class="diary">
+    <ion-button href="home/journal" color="transparent">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+
+    <p>July 26, 2022</p>
+
+    <ion-button class="edit" color="transparent">
+      <ion-icon name="create-outline"></ion-icon>
+    </ion-button>
+  </div>
+
+  <ion-textarea rows="20" cols="10" placeholder="How's your day?"></ion-textarea>
+
+  <div class="save">
+    <ion-button class="ok" (click) ="journal()">
+      <h4>Done</h4>
+    </ion-button>
+  </div>
+</ion-content>
